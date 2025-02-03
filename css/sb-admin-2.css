@@ -558,9 +558,15 @@ pre code {
   margin-left: auto;
 }
 
+.container-fluid2{
+  align-items: center;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
+    align-items: center;
+
   }
 }
 
