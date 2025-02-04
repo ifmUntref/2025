@@ -562,30 +562,50 @@ pre code {
   align-items: center;
 }
 
-@media (min-width: 576px) {
-  .container, .container-sm {
-    max-width: 540px;
-    align-items: center;
+iframe{
+  width: 100%;
+  height: 500%;
+  border: 5px solid green;
+}
 
+/* .youtube {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+@media (min-width: 350px) {
+  .container, .container-sm {
+    max-width: 280px;
+    align-items: center;
   }
+  h3, .h3 { font-size: 1.2rem;}
 }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+  h3, .h3 { font-size: 1.4rem;}
+
 }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
   }
+  h3, .h3 { font-size: 1.5rem;}
+
 }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }
+  h3, .h3 { font-size: 1.6rem;}
+
 }
 
 .row {
@@ -10451,10 +10471,10 @@ a:focus {
   outline: none;
 }
 
-.sidebar.toggled {
+/* .sidebar.toggled {
   width: 0 !important;
   overflow: hidden;
-}
+} */
 
 .sidebar.toggled #sidebarToggle::after {
   content: '\f105';
