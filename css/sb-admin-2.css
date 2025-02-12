@@ -624,6 +624,11 @@ pre code {
   }
   h3, .h3 { font-size: 1.5rem;}
 
+  .container-fluid2 {
+    padding-left: 80px;
+    padding-right: 80px;
+
+  }
 
 }
 
@@ -640,6 +645,7 @@ pre code {
   img {
     width: 60%;
   }
+
 }
 
 .row {
